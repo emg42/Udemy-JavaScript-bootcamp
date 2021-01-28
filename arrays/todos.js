@@ -33,4 +33,13 @@ const deleteTodo = function (todos, todoText) {
   }
 };
 deleteTodo(todos, "do work");
-console.log(todos);
+// console.log(todos);
+
+// Create a function that returns the todos with a completed value of false
+
+const getThingsToDo = function (todos) {
+  return todos.filter(function (todo, index) {
+    return !todo.completed;
+  });
+};
+console.log(getThingsToDo(todos));

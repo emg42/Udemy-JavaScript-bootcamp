@@ -27,6 +27,7 @@ const findNotes = function (notes, query) {
   });
 };
 console.log(findNotes(notes, "Work Out"));
+
 // const note = findNote(notes, "Home renovation");
 // console.log(note);
 
